@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+
+        <item android:title="@string/menu_navigation">
+            <menu>
+                <item
+                    android:id="@+id/nav_term_plan"
+                    android:icon="@drawable/ic_term_insurance"
+                    android:title="@string/term_plan" />
+                <item
+                    android:id="@+id/nav_sip"
+                    android:icon="@drawable/ic_sip"
+                    android:title="@string/sip" />
+                <item
+                    android:id="@+id/nav_health_insurance"
+                    android:icon="@drawable/ic_health_insurance"
+                    android:title="@string/health_insurance" />
+            </menu>
+        </item>
+        <item android:title="@string/general">
+            <menu>
+        <item
+            android:id="@+id/nav_latest_updates"
+            android:icon="@drawable/ic_latest_updates"
+            android:title="@string/latest_updates" />
+        <item
+            android:id="@+id/nav_informative_videos"
+            android:icon="@drawable/ic_videos"
+            android:title="@string/informative_videos" />
+            </menu>
+        </item>
+
+        <item android:title="@string/communication">
+            <menu>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedback" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share" />
+            </menu>
+        </item>
+
+    </group>
+</menu>

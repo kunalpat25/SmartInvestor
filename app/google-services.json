@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "871530873123",
+    "firebase_url": "https://smart-investor-3d087.firebaseio.com",
+    "project_id": "smart-investor-3d087",
+    "storage_bucket": "smart-investor-3d087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871530873123:android:a21f99e5389f12e3fc8c96",
+        "android_client_info": {
+          "package_name": "com.teaminvento.smartinvestor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871530873123-tld9htltopu0d64k3cqa16j5onc397gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeUS5oMFrW7SQrcpzItY_fVn3FEQaVXeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871530873123-tld9htltopu0d64k3cqa16j5onc397gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
